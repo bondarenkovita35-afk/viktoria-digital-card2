@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viktoriia Osipovych – Digital Card</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;700&display=swap"
+        rel="stylesheet"
+    />
+
+    <!-- Boxicons (icons) -->
+    <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="page-glow"></div>
+
+    <div class="page">
+        <!-- Lang switch -->
+        <header class="top-bar">
+            <div class="top-bar__title">Viktoriia · Digital Dance Card</div>
+            <div class="lang-switch">
+                <button class="lang-btn active" data-lang-btn data-lang="en">EN</button>
+                <button class="lang-btn" data-lang-btn data-lang="uk">UA</button>
+                <button class="lang-btn" data-lang-btn data-lang="ru">RU</button>
+            </div>
+        </header>
+
+        <!-- Main card -->
+        <main class="card">
+            <!-- Photo side -->
+            <section class="card-photo">
+                <div class="photo-frame">
+                    <div class="photo-neon"></div>
+                    <img
+                        src="images/photo.jpg"
+                        alt="Viktoriia Osipovych"
+                        class="photo-img"
+                    />
+                </div>
+                <div class="photo-tag" data-i18n="photoTag">
+                    High Heels · Jazz Funk · Femininity
+                </div>
+            </section>
+
+            <!-- Content side -->
+            <section class="card-content">
+                <h1 class="name" data-i18n="name">Viktoriia Osipovych</h1>
+                <p class="role" data-i18n="role">
+                    High Heels &amp; Jazz Funk Instructor
+                </p>
+                <p class="location" data-i18n="location">
+                    Toronto, Canada
+                </p>
+
+                <p class="about" data-i18n="about1">
+                    I teach women how to dance — with clean technique, musicality
+                    and expressive movement.
+                </p>
+                <p class="about" data-i18n="about2">
+                    My focus is on strength, confidence and feminine quality in
+                    dance.
+                </p>
+
+                <!-- Main CTA buttons -->
+                <div class="cta-row">
+                    <a
+                        href="https://www.instagram.com/viktoriiaosipovych?igsh=ZTRjNDZibzlmcWV2&utm_source=qr"
+                        class="btn btn-primary"
+                        target="_blank"
+                        rel="noopener"
+                        data-i18n="btnBook"
+                    >
+                        Book a spot (DM on Instagram)
+                    </a>
+
+                    <a
+                        href="https://t.me/+hx3azR1gCTowNDI0"
+                        class="btn btn-dark"
+                        target="_blank"
+                        rel="noopener"
+                        data-i18n="btnWaitlist"
+                    >
+                        Join waitlist (Telegram)
+                    </a>
+                </div>
+
+                <!-- Social icons -->
+                <div class="social-block">
+                    <p class="social-title" data-i18n="socialTitle">
+                        Connect with me:
+                    </p>
+                    <div class="social-icons">
+                        <a
+                            href="https://www.instagram.com/viktoriiaosipovych?igsh=ZTRjNDZibzlmcWV2&utm_source=qr"
+                            target="_blank"
+                            rel="noopener"
+                            class="social-link"
+                            aria-label="Instagram"
+                        >
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                        <a
+                            href="https://t.me/viktoriia_osipovych"
+                            target="_blank"
+                            rel="noopener"
+                            class="social-link"
+                            aria-label="Telegram"
+                        >
+                            <i class="bx bxl-telegram"></i>
+                        </a>
+                        <a
+                            href="mailto:viktoriia.osipovych@gmail.com"
+                            class="social-link"
+                            aria-label="Email"
+                        >
+                            <i class="bx bx-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Scan / QR section -->
+                <section class="qr-section">
+                    <div class="qr-text">
+                        <h2 class="qr-title" data-i18n="qrTitle">
+                            Scan &amp; follow my dance journey
+                        </h2>
+                        <p class="qr-sub" data-i18n="qrSub">
+                            Point your camera at the QR code to open my Instagram
+                            profile.
+                        </p>
+                    </div>
+
+                    <a
+                        href="https://www.instagram.com/viktoriiaosipovych?igsh=ZTRjNDZibzlmcWV2&utm_source=qr"
+                        class="qr-card"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        <div class="qr-glow"></div>
+                        <img
+                            src="images/qr.png"
+                            alt="QR code to Instagram profile"
+                            class="qr-image"
+                        />
+                    </a>
+                </section>
+
+                <!-- Footer -->
+                <footer class="footer">
+                    <p class="footer-note" data-i18n="footerNote">
+                        This digital card is my mini-website: one link for
+                        classes, contact and updates.
+                    </p>
+
+                    <!-- Studio logo linking to your website -->
+                    <a
+                        href="https://bondarenkovita35-afk.github.io/vs-litecode-studio/"
+                        class="studio-logo"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        <img
+                            src="images/logo.png"
+                            alt="VS Litecode Studio"
+                            class="studio-logo-img"
+                        />
+                        <span class="studio-logo-text">VS Litecode Studio</span>
+                    </a>
+                </footer>
+            </section>
+        </main>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
